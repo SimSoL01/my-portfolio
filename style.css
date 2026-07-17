@@ -1,0 +1,30 @@
+* { 
+    margin:0; padding:0; box-sizing:border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    background-color: #452E5A;
+    padding: 10px;
+    text-align: center;
+    color: #FFC85C;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+#ul-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+a:hover {
+    text-decoration: none;
+    color: #FFC85C;
+    transition: color 0.2s;
+}
+.li-nav {
+    background-color: #FF653F;
+    font-size: 150%;
+}
