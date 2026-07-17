@@ -2,7 +2,7 @@
     margin:0; padding:0; box-sizing:border-box;
 }
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
 }
 header {
     background-color: #452E5A;
@@ -19,12 +19,17 @@ header {
     gap: 20px;
     list-style: none;
 }
-a:hover {
+a {
     text-decoration: none;
     color: #FFC85C;
     transition: color 0.2s;
 }
+a:hover {
+    color: #FF653F;
+}
 .li-nav {
-    background-color: #FF653F;
+    background-color: #cb4b2b;
     font-size: 150%;
+    padding: 8px 16px;
+    border-radius: 6px; /* bo góc cho mềm mại hơn */
 }
