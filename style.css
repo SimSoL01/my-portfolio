@@ -25,11 +25,37 @@ a {
     transition: color 0.2s;
 }
 a:hover {
-    color: #FF653F;
+    color: #FF653F; 
 }
 .li-nav {
     background-color: #cb4b2b;
     font-size: 150%;
     padding: 8px 16px;
     border-radius: 6px; /* bo góc cho mềm mại hơn */
+}
+#sc-about {
+    text-align: center; 
+    margin: 0 auto;
+    padding: 6px 12px;
+    max-width: 1200px;
+}
+#ul-skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    list-style: none;
+}
+.li-skills {
+    background: #cb4b2b;
+    padding: 6px 12px;
+    text-align: center;
+}
+.li-skills:hover {
+    background-color: #FF653F;
+    transition: all 0.2s;
+}
+h3 {
+    font-size: 120%;
+    color: #FFC85C;
+    border-radius: 0%;
 }
