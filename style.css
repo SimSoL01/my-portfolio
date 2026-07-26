@@ -12,6 +12,13 @@ header {
     display: flex;
     justify-content:space-between;
     align-items:center;
+
+    width: 100%;
+    margin: 0;
+}
+section {
+    width: 60%;
+    margin: 0 auto;
 }
 #ul-nav {
     display: flex;
@@ -35,9 +42,9 @@ a:hover {
 }
 #sc-about {
     text-align: center; 
-    margin: 0 auto;
+    
     padding: 6px 12px;
-    max-width: 1200px;
+    
 }
 #ul-skills {
     display: grid;
@@ -49,13 +56,16 @@ a:hover {
     background: #cb4b2b;
     padding: 6px 12px;
     text-align: center;
+    border-radius: 6px;
+    transition: all 0.2s;
 }
 .li-skills:hover {
     background-color: #FF653F;
-    transition: all 0.2s;
 }
 h3 {
     font-size: 120%;
     color: #FFC85C;
-    border-radius: 0%;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #452E5A;
+    display: inline-block;
 }
