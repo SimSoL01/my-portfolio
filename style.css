@@ -74,7 +74,16 @@ h3 {
     header {
         flex-direction: column;
         gap: 10px;
-    }  
+    }
+    #ul-nav {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 10px;
+    }
+    section {
+        width: 90%;
+    }
     #ul-skills {
         grid-template-columns: 1fr;
     }
