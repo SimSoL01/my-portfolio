@@ -69,6 +69,10 @@ h3 {
     border-bottom: 1px solid #452E5A;
     display: inline-block;
 }
+#hamburger-btn {
+    display: none;
+    font-size: 120%;
+}
 
 @media (max-width: 768px) {
     header {
@@ -76,7 +80,7 @@ h3 {
         gap: 10px;
     }
     #ul-nav {
-        display: grid;
+        display: none;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
         gap: 10px;
@@ -89,5 +93,11 @@ h3 {
     }
     #sc-about {
         padding: 3px 6px;
+    }
+    #hamburger-btn {
+        display: block;
+    }
+    #ul-nav.nav-open { 
+        display: grid; 
     }
 }
