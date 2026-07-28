@@ -16,6 +16,9 @@ header {
     width: 100%;
     margin: 0;
 }
+footer {
+    font-size: 70%;
+}
 section {
     width: 60%;
     margin: 0 auto;
@@ -100,4 +103,8 @@ h3 {
     #ul-nav.nav-open { 
         display: grid; 
     }
+}
+
+html {
+    scroll-behavior: smooth ;
 }
